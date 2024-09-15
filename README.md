@@ -49,6 +49,10 @@ Once inside the container, you can use the following commands:
 - **vim**: For text editing. [Vim Documentation](https://www.vim.org/docs.php)
 - **bash**: For an enhanced shell experience. [Bash Documentation](https://www.gnu.org/software/bash/manual/bash.html)
 
+## Contributing
+
+We welcome contributions to improve the `toolbox` Docker image. To get started, please check out our [GitHub repository](https://github.com/modulairy/toolbox). You can open issues or submit pull requests to contribute to the project.
+
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
