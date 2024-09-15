@@ -11,16 +11,24 @@ The `toolbox` Docker image is a lightweight Alpine Linux-based container that in
 
 ## Usage
 
+### Pull the Docker Image
+
+To pull the pre-built Docker image from Docker Hub, use the following command:
+
+```bash
+docker pull modulairy/toolbox
+```
+
 ### Build the Docker Image
 
-To build the Docker image from the provided Dockerfile, follow these steps:
+To build the Docker image from the provided `Containerfile`, follow these steps:
 
-1. Save the Dockerfile to a file named `Dockerfile`.
+1. Save the `Containerfile` to a file named `Containerfile`.
 
 2. Build the Docker image with the following command:
 
    ```bash
-   docker build -t toolbox .
+   docker build -t toolbox -f Containerfile .
    ```
 
 ### Run the Docker Container
@@ -47,4 +55,4 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Contact
 
-For any questions or feedback, please contact [email@example.com](mailto:opensource@modulairy.com).
+For any questions or feedback, please contact [opensource@modulairy.com](mailto:opensource@modulairy.com).
